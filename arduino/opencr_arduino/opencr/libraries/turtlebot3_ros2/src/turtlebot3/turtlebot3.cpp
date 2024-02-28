@@ -52,12 +52,22 @@ static const TB3ModelInfo waffle_info = {
 static const TB3ModelInfo waffle_with_manipulator_info = {
   "Waffle_OpenManipulator",
   3,
-  0.033,
-  0.287,
-  0.1435,
+  0.06225, //0.033,
+  0.29405, //0.287,
+  0.147025, //0.1435,
   0.220,
   true,
 };
+
+// static const TB3ModelInfo waffle_with_manipulator_info = {
+//   "Waffle_OpenManipulator",
+//   3,
+//   0.033,
+//   0.287,
+//   0.1435,
+//   0.220,
+//   true,
+// };
 
 
 /*******************************************************************************

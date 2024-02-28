@@ -23,7 +23,8 @@ const uint16_t LIMIT_X_MAX_VELOCITY = 337;
 // V = r * w = r     *        (RPM             * 0.10472)
 //           = 0.033 * (0.229 * Goal_Velocity) * 0.10472
 // Goal_Velocity = V * 1263.632956882
-const float VELOCITY_CONSTANT_VALUE = 1263.632956882; 
+// const float VELOCITY_CONSTANT_VALUE = 1263.632956882; 
+const float VELOCITY_CONSTANT_VALUE = 669.877712082; 
 
 /* DYNAMIXEL Information for controlling motors and  */
 const uint8_t DXL_MOTOR_ID_LEFT = 1; // ID of left motor
